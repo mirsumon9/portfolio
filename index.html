@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumon - Personal Portfolio</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/plugins.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dark-theme">
+    <!-- preloader -->
+    <div class="preloader show fullscreen">
+        <svg class="circular" width="48px" height="48px">
+            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+                stroke="#e38445" />
+        </svg>
+    </div>
+    <header class="header" data-header>
+        <div class="container">
+            <h1 class="h1 logo">
+                <a href="index.html">Sumon<span>.</span></a>
+            </h1>
+            <div class="navbar-actions">
+                <select name="language" id="lang">
+                    <option value="en">En</option>
+                    <option value="es">Es</option>
+                </select><button class="theme-btn" aria-label="Change Theme" title="Change Theme" data-theme-btn><span
+                        class="icon"></span></button>
+            </div><button class="nav-toggle-btn " aria-label="Toggle Menu" title="Toggle Menu" data-nav-toggle-btn>
+                <span class="one"></span>
+                <span class="two"></span>
+                <span class="three"></span>
+            </button>
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+                    <li><a href="#home" class="navbar-link">Home</a></li>
+                    <li><a href="#about" class="navbar-link">About</a></li>
+                    <li><a href="#skills" class="navbar-link">Skills</a></li>
+                    <li><a href="#portfolio" class="navbar-link">Portfolio</a></li>
+                    <li><a href="#contact" class="navbar-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <article class="container">
+            <section class="hero" id="home">
+                <figure class="hero-banner">
+                    <picture>
+                        <source srcset="https://i.postimg.cc/qgfKBWnD/hero-banner.png" media="(min-width: 768px)">
+                        <source srcset="https://i.postimg.cc/ncZ75fFM/hero-banner-md.png" media="(min-width: 500px)">
+                        <img src="img/hero.png" alt="">
+                    </picture>
+                </figure>
+                <div class="hero-content">
+                    <h2 class="h2 hero-title">Designing & Building Creative Website</h2>
+                    <a href="#contact" class="btn btn-primary">Contact me</a>
+                </div>
+                <ul class="hero-social-list">
+                    <li>
+                        <a href="https://github.com/mirsumon9" class="hero-social-link">
+                            <i class="ri-github-fill"></i>
+                            <div class="tooltip">GitHub</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://x.com/mirsumon69" class="hero-social-link">
+                            <i class="ri-twitter-x-line"></i>
+                            <div class="tooltip">Twitter-X</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/mirsumon9" class="hero-social-link">
+                            <i class="ri-linkedin-fill"></i>
+                            <div class="tooltip">Linkedin</div>
+                        </a>
+                    </li>
+                </ul><a href="#stats" class="scroll-down">Scroll</a>
+            </section>
+            <section class="stats" id="stats">
+                <ul class="stats-list">
+                    <li>
+                        <a href="#" class="stats-card">
+                            <div class="card-icon">
+                                <img src="img/stats-card-icon-1.png" alt="">
+                            </div>
+                            <h2 class="h2 card-title">02+<strong>Years of Experience</strong></h2>
+                            <ion-icon name="chevron-forward-outline"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="stats-card">
+                            <div class="card-icon">
+                                <img src="img/stats-card-icon-2.png" alt="">
+                            </div>
+                            <h2 class="h2 card-title">13+<strong>Completed Projects</strong></h2>
+                            <ion-icon name="chevron-forward-outline"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="stats-card">
+                            <div class="card-icon">
+                                <img src="img/stats-card-icon-3.png" alt="">
+                            </div>
+                            <h2 class="h2 card-title">99%<strong>Happy Clients</strong></h2>
+                            <ion-icon name="chevron-forward-outline"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section class="about" id="about">
+                <figure class="about-img">
+                    <img src="img/about-me.png" alt="">
+                </figure>
+                <div class="about-content section-content">
+                    <p class="section-subtitle">About me</p>
+                    <h2 class="h2 section-title">Need a Product? Get in Touch!</h2>
+                    <p class="section-text">Hi, I'm Mir Sumon. I'm web developer based in Faridpur, and I'm very
+                        passionate and dedicated to my work. I enjoy the process of turning ideas into reality using
+                        creative solutions. I'm always curious about leaning new skills, tools and concepts. In addition
+                        to working on various solo WordPress projects, I have worked with complex teams, which involves
+                        daily stand-ups and communications, source control and project management.</p>
+                </div>
+                <div class="btn-group">
+                    <a href="#contact" class="btn btn-secondary">Hire me</a>
+                    <a href="" class="btn btn-primary">Download CV</a>
+                </div>
+            </section>
+            <section class="skills" id="skills">
+                <div class="skills-content section-content">
+                    <p class="section-subtitle">My Skills</p>
+                    <h2 class="h2 section-title">What my Programming Skills Includes?</h2>
+                    <p class="section-text">I develop simple, intuitive and responsive user interface that helps user
+                        get things done with less effort and time with those technologies.</p>
+                    <div class="skills-toggle" data-toggle-box>
+                        <button class="toggle-btn active" data-toggle-btn>Skills</button>
+                        <button class="toggle-btn" data-toggle-btn>Tools</button>
+                    </div>
+                </div>
+                <div class="skills-box " data-skills-box>
+                    <ul class="skills-list">
+                        <li>
+                            <div class="skills-card">
+                                <div class="tooltip">HTML5</div>
+                                <div class="card-icon">
+                                    <img src="img/html5.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skills-card">
+                                <div class="tooltip">CSS3</div>
+                                <div class="card-icon">
+                                    <img src="img/css3.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skills-card">
+                                <div class="tooltip">JavaScript</div>
+                                <div class="card-icon">
+                                    <img src="img/javascript.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skills-card">
+                                <div class="tooltip">PHP</div>
+                                <div class="card-icon">
+                                    <img src="img/php.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skills-card">
+                                <div class="tooltip">Bootstrap</div>
+                                <div class="card-icon">
+                                    <img src="img/bootstrap.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skills-card">
+                                <div class="tooltip">Foundation</div>
+                                <div class="card-icon">
+                                    <img src="img/foundation.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skills-card">
+                                <div class="tooltip">Tailwind CSS</div>
+                                <div class="card-icon">
+                                    <img src="img/tailwindcss.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skills-card">
+                                <div class="tooltip">jQuery</div>
+                                <div class="card-icon">
+                                    <img src="img/jquery.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skills-card">
+                                <div class="tooltip">React</div>
+                                <div class="card-icon">
+                                    <img src="img/react.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skills-card">
+                                <div class="tooltip">Vue</div>
+                                <div class="card-icon">
+                                    <img src="img/vue.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skills-card">
+                                <div class="tooltip">WordPress</div>
+                                <div class="card-icon">
+                                    <img src="img/wordpress.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skills-card">
+                                <div class="tooltip">MySQL</div>
+                                <div class="card-icon">
+                                    <img src="img/mysql.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skills-card">
+                                <div class="tooltip">SASS</div>
+                                <div class="card-icon">
+                                    <img src="img/sass.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="tools-list">
+                        <li>
+                            <div class="skills-card">
+                                <div class="tooltip">Ajax</div>
+                                <div class="card-icon">
+                                    <img src="img/ajax.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skills-card">
+                                <div class="tooltip">Gulp</div>
+                                <div class="card-icon">
+                                    <img src="img/gulp.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skills-card">
+                                <div class="tooltip">Webpack</div>
+                                <div class="card-icon">
+                                    <img src="img/webpack.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skills-card">
+                                <div class="tooltip">Git</div>
+                                <div class="card-icon">
+                                    <img src="img/git.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skills-card">
+                                <div class="tooltip">Npm</div>
+                                <div class="card-icon">
+                                    <img src="img/npm.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skills-card">
+                                <div class="tooltip">Command Line</div>
+                                <div class="card-icon">
+                                    <img src="img/command.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skills-card">
+                                <div class="tooltip">VS Code</div>
+                                <div class="card-icon">
+                                    <img src="img/vs-code.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skills-card">
+                                <div class="tooltip">Local</div>
+                                <div class="card-icon">
+                                    <img src="img/local.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skills-card">
+                                <div class="tooltip">Laravel Herd</div>
+                                <div class="card-icon">
+                                    <img src="img/laravelherd.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skills-card">
+                                <div class="tooltip">Slack</div>
+                                <div class="card-icon">
+                                    <img src="img/slack.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skills-card">
+                                <div class="tooltip">Photoshop</div>
+                                <div class="card-icon">
+                                    <img src="img/photoshop.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skills-card">
+                                <div class="tooltip">Figma</div>
+                                <div class="card-icon">
+                                    <img src="img/figma.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="project" id="portfolio">
+                <ul class="project-list">
+                    <li>
+                        <div class="project-content section-content">
+                            <p class="section-subtitle">My Works</p>
+                            <h2 class="h3 section-title">See my works which will amaze you!</h2>
+                            <p class="section-text">We create the best quality websites that will serve you for a long
+                                time. Well-documented, clean, simple and elegant interface helps any non-technical
+                                clients.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="https://merry-selkie-7b926d.netlify.app/" class="project-card">
+                            <figure class="card-banner">
+                                <img src="img/portfolio-1.jpg" alt="">
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="h4 card-title">Thom - Photography Template</h3>
+                                <span>Bootstrap</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://magnificent-halva-54ef7c.netlify.app/" class="project-card">
+                            <figure class="card-banner">
+                                <img src="img/portfolio-2.jpg" alt="">
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="h4 card-title">Milky Way - IT Solution Template</h3>
+                                <span>Bootstrap</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://mirsumon.wuaze.com/my-tutor" class="project-card">
+                            <figure class="card-banner">
+                                <img src="img/portfolio-3.jpg" alt="">
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="h4 card-title">My Tutor - Learning Platform Template</h3>
+                                <span>Tailwind CSS</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://mirsumon.wuaze.com/lesson/" class="project-card">
+                            <figure class="card-banner">
+                                <img src="img/portfolio-4.jpg" alt="">
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="h4 card-title">Lesson – Education Platform Template</h3>
+                                <span>Tailwind CSS</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://dev-mirsumon9.pantheonsite.io/magnifico/" class="project-card">
+                            <figure class="card-banner">
+                                <img src="img/portfolio-5.jpg" alt="">
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="h4 card-title">Magnifico: Wordpress Landing Page</h3>
+                                <span>WordPress</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://dev-mirsumon9.pantheonsite.io/xinder/" class="project-card">
+                            <figure class="card-banner">
+                                <img src="img/portfolio-6.jpg" alt="">
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="h4 card-title">Xinder: Wordpress Landing Page</h3>
+                                <span>WordPress</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <button class="load-more">Load More Works</button>
+                    </li>
+                </ul>
+            </section>
+            <section class="contact" id="contact">
+                <div class="contact-content section-content">
+                    <p class="section-subtitle">Contact</p>
+                    <h2 class="h3 section-title">Have you any project? Drop a message!</h2>
+                    <p class="section-text">Get in touch and let me know if I can help! Fill out the form and I'll be in
+                        touch as soon as possible.</p>
+                    <ul class="contact-list">
+                        <li class="contact-list-item">
+                            <div class="contact-item-icon">
+                                <ion-icon name="location-outline"></ion-icon>
+                            </div>
+                            <div class="wrapper">
+                                <h3 class="h4 contact-item-title">Address: </h3>
+                                <a href="" class="contact-info">Faridpur, Dhaka, Bangladesh</a>
+                            </div>
+                        </li>
+                        <li class="contact-list-item">
+                            <div class="contact-item-icon">
+                                <ion-icon name="call-outline"></ion-icon>
+                            </div>
+                            <div class="wrapper">
+                                <h3 class="h4 contact-item-title">Phone: </h3>
+                                <a href="tel:+8801518711069" class="contact-info">+8801518711069</a>
+                            </div>
+                        </li>
+                        <li class="contact-list-item">
+                            <div class="contact-item-icon">
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </div>
+                            <div class="wrapper">
+                                <h3 class="h4 contact-item-title">Email: </h3>
+                                <a href="mailto:mirsumon9@outlook.com" class="contact-info">mirsumon9@outlook.com</a>
+                            </div>
+                        </li>
+                        <li>
+                            <ul class="contact-social-list">
+                                <li>
+                                    <a href="https://github.com/mirsumon9" class="contact-social-link">
+                                        <div class="tooltip">GitHub</div>
+                                        <i class="ri-github-fill"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://x.com/mirsumon69" class="contact-social-link">
+                                        <div class="tooltip">X-Twitter</div>
+                                        <i class="ri-twitter-x-line"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/mirsumon9" class="contact-social-link">
+                                        <div class="tooltip">Linkedin</div>
+                                        <i class="ri-linkedin-fill"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <form action="https://formspree.io/f/mdkrnvyb" method="post" class="contact-form">
+                    <div class="form-wrapper">
+                        <label for="name" class="form-label">Name</label>
+                        <div class="input-wrapper">
+                            <input type="text" name="name" id="name" required placeholder="Your Name"
+                                class="input-field">
+                            <ion-icon name="person-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="form-wrapper">
+                        <label for="email" class="form-label">Email</label>
+                        <div class="input-wrapper">
+                            <input type="email" name="email" id="email" required placeholder="someone@example.com"
+                                class="input-field">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="form-wrapper">
+                        <label for="subject" class="form-label">Subject</label>
+                        <div class="input-wrapper">
+                            <input type="tel" name="subject" id="subject" required placeholder="Subject"
+                                class="input-field">
+                            <ion-icon name="document-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="form-wrapper">
+                        <label for="message" class="form-label">Message</label>
+                        <div class="input-wrapper">
+                            <textarea name="message" id="message" class="input-field" required
+                                placeholder="Write your Message"></textarea>
+                            <ion-icon name="chatbubbles-outline"></ion-icon>
+                        </div>
+                    </div><button type="submit" class="btn btn-primary">Send</button>
+                </form>
+            </section>
+        </article>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p class="h1 logo">
+                <a href="#">Sumon<span>.</span></a>
+            </p>
+            <p class="copyright">&copy; 2025 <a href="https://codepen.io/leonam-silva-de-souza" target="_blank">ULTRA
+                    CODE</a>. All rights reserved</p>
+        </div>
+    </footer>
+    <!-- <a href="#top" class="go-top " data-go-top title="Go to Top"><ion-icon name="arrow-up"></ion-icon></a> -->
+    <!-- progress -->
+    <div class="progress-wrap cursor-pointer">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <script src="js/plugins.js"></script>
+    <script src="js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
